@@ -150,7 +150,7 @@ body{
     .slider-wrapper
         {
             display: block;
-            margin-top:95px;
+            margin-top:200px;
         }
      .slider{
        margin-top:25px;
@@ -181,6 +181,14 @@ body{
      #dot{
         margin-left:-10px
       }
+      .intro-page{
+        height:750px
+      }
+      .navbar-toggler {
+          border-color: white !important;
+          color: white;
+      }
+
     
     }
 
