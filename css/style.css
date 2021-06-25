@@ -73,7 +73,8 @@ body{
     padding: 0 10px;
   }
   
-  .slider > div {
+/* ------- slider Design Sample-1 ----------- */
+  /* .slider > div {
     box-sizing: border-box;
     font-size:30px;
     border-radius: 5px;
@@ -96,7 +97,39 @@ body{
   
   .text3 {
     background-color: #0d6efd;
+  } */
+/* ------- slider Design Sample-1 ----------- */
+
+
+/* ------- slider Design Sample-2 ----------- */
+  .slider > div {
+
+    font-size:30px;
+    background-color: transparent;
+    color: #FFF;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+    line-height: 45px;
+    text-align: center;
   }
+  
+  .text1 {
+  border-radius : 2px;
+  border: 1px solid #ffa502;
+    animation: slide 5s linear infinite;
+  }
+  
+  .text2 {
+    border-radius:3px;
+     border: 1px solid #2ed573;;
+  }
+  
+  .text3 {
+    border-radius:3px;
+     border: 1px solid #3498db;
+  }
+  /* ------- slider Design Sample-2 ----------- */
   
   @keyframes slide {
     0% { margin-top: -300px; }
@@ -146,7 +179,7 @@ body{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .slider-wrapper
         {
             display: block;
