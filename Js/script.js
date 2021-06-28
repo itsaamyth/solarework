@@ -9,3 +9,36 @@ $(window).on('click', function(event){
     
 });
 console.log("Js imported")
+
+//------Change navbar bg color-------
+$(window).scroll(function(){
+    var scroll = $(window).scrollTop();
+    if(scroll < 10){
+        $('.navbar').css('background-color', 'transparent');
+        $('.nav-link h5').css('color', 'white');
+        $('#logotext1').css('color', 'white');
+        $('#logotext2').css('color', 'white');
+        
+    } else{
+        $('.navbar').css('background-color', 'white');
+        $('.nav-link h5').css('color', 'black');
+        $('#logotext1').css('color', 'black');
+        $('#logotext2').css('color', 'black');
+
+    }
+});
+
+ 
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[980,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        slideSpeed:1000,
+        autoPlay:true
+    });
+});

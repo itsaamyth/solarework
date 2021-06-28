@@ -1,4 +1,5 @@
 body{
+  background-color: #f0f3f5;
 
 }
 .navbar{
@@ -30,8 +31,7 @@ body{
     justify-content: center;
     position: relative;
     /* margin-top: 120px; */
-    height: 650px;
-    margin-bottom: 50px;
+    height: 680px;
 }
 .intro-page:after {
     content: '';
@@ -72,6 +72,8 @@ body{
     overflow: hidden;
     padding: 0 10px;
   }
+
+
   
 /* ------- slider Design Sample-1 ----------- */
   /* .slider > div {
@@ -167,6 +169,39 @@ body{
     /* color: #0d6efd; */
     background-color: #0d6efd;
 }
+
+.hr{
+	margin: 1em 0 .6em 0;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+	font-family: 'Hammersmith One', sans-serif;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+	position: relative;
+	font-size: 30px;
+	line-height: 40px;
+}
+.hr:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	border-radius: 2px;
+	background-color: #005da7;
+	box-shadow: 
+		inset 0 1px 1px #005da7, 
+		0 1px 1px #005da7;
+}
+/* #title-underline :after{
+  content: '';
+  height: 4px;
+  width: 25%;
+  display:block;
+  margin:auto;
+  margin-top:10px;
+  background-color: #0d6efd;
+} */
 #dot1{
     color: #0d6efd;
     font-size: 40px;
@@ -177,9 +212,253 @@ body{
     font-size: 40px;
     margin-left:0px
 }
+#dot2{
+  color: #0d6efd;
+  font-size: 40px;
+  margin-left:-10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#dot3{
+
+}
+#desc1{
+  background-color: #005da7;
+  padding: 50px;
+  color: white
+}
+#desc1-h3{
+  text-align: center;
+  font-weight:500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#desc2{
+  padding: 20px;
+  margin-top: 40px;
+}
+#services{
+  /* width: 18rem; */
+  background-color: white;
+  height: 380px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#service-img{
+  height: 170px;
+}
+
+#lm{
+  margin-bottom: 40px;
+}
+
+#about{
+  margin-left: 20px;
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 17px;
+  text-align: justify;
+}
+
+#know{
+  margin-left: 30px;
+  background-color: #005da7;
+  height: 40px;
+  border-color: unset;
+}
+#know2{
+  margin-left: 20px;
+  background-color: #005da7;
+  height: 40px;
+  border-color: unset;
+}
+
+#know3{
+  display: block;
+  margin: auto;
+  background-color: #005da7;
+  height: 40px;
+  border-color: unset;
+}
+#aboutList{
+  margin-left: 10px;
+  margin-top:20px
+}
+#aboutList li{
+	margin:0 0 13px;
+	padding:0 0 0 25px;
+  font-weight: 500;
+}
+#poster{
+  color: white;
+  height: 550px;
+  background-color: #005da7;
+}
+#banner{
+  margin-top: 60px;
+  height: 550px;
+
+}
+#poster-img{
+  border-radius: unset;
+  height: 550px;
+}
+#poster-img1{
+  border-radius: unset;
+  height: 550px;
+}
+
+#img-div:after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#poster-text{
+padding: 80px;
+}
+#poster-text1{
+  margin-top: 30px;
+  font-size:25px;
+  font-weight:300;
+  text-align:left;
+  }
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#connect{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* #img1{
+  background: url(/images/panelWash.jpg)  center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+#poster-button{
+  font-size:30px;
+  background-color: transparent;
+  color: #FFF;
+  border-color:white;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0 10px;
+  line-height: 45px;
+  text-align: center;
+}
+
+/* Testimonial  */
+/* .demo{ 
+  background: #f8f8f8;
+ } */
+.testimonial{
+    margin: 0 20px 40px;
+}
+.testimonial .testimonial-content{
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    transform: rotate(45deg);
+}
+.testimonial-content .testimonial-icon{
+    width: 50px;
+    height: 45px;
+    background: #005da7;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+.testimonial-content .testimonial-icon:before{
+    content: "";
+    border-bottom: 16px solid #005da7;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+.testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #005da7;
+}
+.owl-theme .owl-controls{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #005da7;
+}
 
 
-@media (max-width: 600px) {
+/* 
+footer */
+footer{
+  background-color: #1a1a1a;
+  color: white;
+  padding: 30px;
+}
+
+#footerlist li{
+  margin-left: -30px;
+}
+
+#dot3{
+  color: #0d6efd;
+  margin-left:-6px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
     .slider-wrapper
         {
             display: block;
@@ -202,11 +481,11 @@ body{
          margin-top:10px;
          color: white;
      }
-     .navbar{
+     /* .navbar{
          background-color: white;
-     }
+     } */
      #logo{
-         color: black;
+         color: white;
      }
      .nav-link{
          color: black !important;
@@ -218,9 +497,46 @@ body{
         height:750px
       }
       .navbar-toggler {
-          border-color: white !important;
+          /* border-color: white !important; */
           color: white;
       }
+      #desc1{
+        padding: 20px;
+      }
+      #desc1-h3{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      #service-img{
+      height: unset;
+      }
+      #services{
+        height: 450px;
+      }
+      #poster{
+        margin-top: 40px;
+      	height:unset;
+      	margin-bottom:60px;
+      }
+      #poster-text{
+        padding: 40px;
+           }
+      #poster-img{
+        height: 400px;
+      }
+      #poster-img1{
+        display: none;
+      }
+      #banner{
+        height: unset;
+      }
+      #dot3{
+        color: #0d6efd;
+        margin-left:-6px;
+        font-size:40px;
+      }
+
+      
 
     
     }
