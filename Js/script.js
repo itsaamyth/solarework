@@ -57,3 +57,19 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
+  // Accordion - on single service page
+  $('.accordion-title').on('click', function() {
+    $(this).parent().toggleClass('opened');
+  });
+
+let acc = document.querySelectorAll('.accrodion');
+var i;
+for(i=0;i<acc.length;i++){
+  acc[i].addEventListener('click', function(){
+    var previousItem = document.querySelector('.active');
+    var activeItem = this.parentNode;
+    activeItem.classList.toggle('active');
+    previousItem.classList.remove('active');
+  });
+};

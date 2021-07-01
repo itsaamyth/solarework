@@ -152,6 +152,11 @@ body{
     margin-top: -10px;
     float: right;
 }
+#book1-about{
+  margin-top: -10px;
+  float: left;
+  margin-left:-40px
+}
 #bglink{
     margin-top: 70px;
 }
@@ -218,8 +223,10 @@ body{
   margin-left:-8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#dot3{
-
+#dot-about{
+    color: #0d6efd;
+    font-size: 40px;
+    margin-left:-8px
 }
 #desc1{
   background-color: #005da7;
@@ -319,6 +326,10 @@ body{
 
 #poster-text{
 padding: 80px;
+}
+
+#about-text{
+  padding: 55px;
 }
 #poster-text1{
   margin-top: 30px;
@@ -503,6 +514,42 @@ footer{
 }
 
 
+/* About Page */
+
+#better{
+  display: block;
+  margin: auto;
+}
+
+
+
+button.accrodion {
+  background-color: #005da7;
+  border: 0;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  color: rgba(255,255,255,1); 
+}
+.accrodion,.panel{
+  width: 100%;
+}
+.panel{
+  display:none;
+  padding: 10px 20px 20px;
+  box-shadow: 0 5px 5px lightgray;
+  border-radius: 3px;
+  background-color: white;
+}
+.active .panel{
+  display:block;
+}
+
+
+
 @media (max-width: 768px) {
     .slider-wrapper
         {
@@ -565,6 +612,9 @@ footer{
       }
       #poster-text{
         padding: 40px;
+           }
+           #poster-text-about{
+             padding: 20px;
            }
       #poster-img{
         height: 400px;
