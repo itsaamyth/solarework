@@ -31,67 +31,56 @@
   <body>
     <div>
       <header class="fixed-top d-md-block">
-        <nav
-          class="
-            navbar navbar-light navbar-expand-md
-            bg-faded
-            justify-content-center
-          "
-        >
+        <nav class="
+              navbar navbar-light navbar-expand-md
+              bg-faded
+              justify-content-center
+            ">
           <div class="container">
             <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
               <h3 id="logo">
-                <span id="logotext1" style="font-weight: normal">Solar</span
-                ><span id="logotext2">Rework</span>
+                <span id="logotext1" style="font-weight: normal;">Solar</span><span id="logotext2" >Rework</span>
                 <span id="dot1">.</span>
               </h3>
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapsingNavbar3"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <div class="navbar-collapse collapse w-100"  id="collapsingNavbar3">
               <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">
+                    <h5>Home</h5>
+                  </a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html">
                     <h5>About Us</h5>
                   </a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a
-                    class="nav-link"
-                    href="#"
-                    id="navbarScrollingDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <h5>Service</h5>
+                  <a class="nav-link" href="services.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <h5>Services <i class="fas fa-angle-down"></i></h5>
                   </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarScrollingDropdown"
-                  >
-                    <li><a class="dropdown-item" href="#">Services1</a></li>
-                    <li><a class="dropdown-item" href="#">Services2</a></li>
-                    <li><a class="dropdown-item" href="#">Services3</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                    <li><a class="dropdown-item" href="/system-repair.html">System Repair</a></li>
+                    <li><a class="dropdown-item" href="/panel-washing.html">Panel Washing</a></li>
+                    <li><a class="dropdown-item" href="/panel-replacement.html">Panel Replacement</a></li>
+                    <li><a class="dropdown-item" href="/maintenance.html">Maintenance & Monitoring</a></li>
+                    <li><a class="dropdown-item" href="/plant-shifting.html">Solar Plant Shifting</a></li>
+                    <li><a class="dropdown-item" href="/plant-reinstallation.html">Solar Plant Reinstallation</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <h5>Maintenance</h5>
+                    <h5>Contact</h5>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"
-                    ><button id="book" type="button" class="btn btn-primary">
-                      <h6 style="margin-top: 5px">Book Appointment</h6>
-                    </button></a
-                  >
+                  <a class="nav-link" href="#" ><button id="book" type="button" class="btn btn-primary">
+                    <h6 style="margin-top: 5px;">Book Appointment</h6>
+                    </button></a>
                 </li>
               </ul>
             </div>
@@ -224,8 +213,8 @@
         </h3>
         <div class="row">
           <div class="col-md-4">
-            <div class="card border-0">
-              <img id="better" src="/images/repair-removebg-preview.png" />
+            <div class="card border-0" id="better-card">
+              <img id="better" src="./images/repair-removebg-preview.png" />
               <div class="card-body">
                 <h5 style="text-align: center">Solar Repair Service</h5>
                 <h6 style="text-align: justify; font-weight: normal">
@@ -243,8 +232,8 @@
           </div>
 
           <div class="col-md-4">
-            <div class="card border-0">
-              <img id="better" src="/images/maint-removebg-preview.png" />
+            <div class="card border-0" id="better-card">
+              <img id="better" src="./images/maint-removebg-preview.png" />
               <div class="card-body">
                 <h5 style="text-align: center">Preventive Maintenance</h5>
                 <h6 style="text-align: justify; font-weight: normal">
@@ -262,8 +251,8 @@
           </div>
 
           <div class="col-md-4">
-            <div class="card border-0">
-              <img id="better" src="/images/bill-removebg-preview.png" />
+            <div class="card border-0" id="better-card">
+              <img id="better" src="./images/bill-removebg-preview.png" />
               <div class="card-body">
                 <h5 style="text-align: center">Production & Bill Analysis</h5>
                 <h6 style="text-align: justify; font-weight: normal">
@@ -339,7 +328,7 @@
 They are committed to making the process as simple and painless as possible. </p>
           </div>
           <div class="item active">
-            <button class="accrodion">Experienced Engineers</button>
+            <button class="accrodion1">Experienced Engineers</button>
             <div class="panel">
               <p>Proper system design and installation is crucial for ensuring your system lives up to its 
                 full potential. Let our network of certified engineers take the worry out of installing your 
@@ -347,13 +336,13 @@ They are committed to making the process as simple and painless as possible. </p
             </div>
             </div>
             <div class="item">
-            <button class="accrodion">Qualified Contractors</button>
+            <button class="accrodion1">Qualified Contractors</button>
             <div class="panel">
               <p> We only partner with certified and experienced installers who are up to date with industry best practices. Our partners are trained in the proper handling and installation of our products and treat them with the same care that we would.</p>
             </div>
             </div>
             <div class="item">
-            <button class="accrodion">Superior Solar Installation</button>
+            <button class="accrodion1">Superior Solar Installation</button>
             <div class="panel">
               <p>Our installation partners uphold our own professional business practices and are happy to provide references from previous satisfied customers. You can trust them to respect your property and install a system that lasts.</p>
             </div>
@@ -370,6 +359,7 @@ They are committed to making the process as simple and painless as possible. </p
     </div>
   </div>
 </section>
+
 
 
     <section>
