@@ -550,7 +550,7 @@ footer{
 button.accrodion {
   background-color: #005da7;
   border: 0;
-  padding: 20px;
+  padding: 10px;
   border-radius: 3px;
   margin-bottom: 5px;
   cursor: pointer;
@@ -681,9 +681,15 @@ button.accrodion1 {
   margin-bottom: 30px;
 }
 
-      
+#more-services{
+height:420px;
+}      
 
-    
+button.accrodion {
+
+  padding: 10px;
+
+}    
     }
 
 @media (min-width: 768px) {
