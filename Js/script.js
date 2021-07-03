@@ -19,14 +19,19 @@ $(window).scroll(function(){
         $('#logotext1').css('color', 'white');
         $('#logotext2').css('color', 'white');
         
+        
     } else{
         $('.navbar').css('background-color', 'white');
         $('.nav-link h5').css('color', 'black');
         $('#logotext1').css('color', 'black');
         $('#logotext2').css('color', 'black');
+        $("#active").css('color','#005da7');
 
     }
 });
+
+
+
 
  
 $(document).ready(function(){

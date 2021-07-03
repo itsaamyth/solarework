@@ -21,60 +21,62 @@
     <div>
         <header class="fixed-top d-md-block">
           <nav class="
-                navbar navbar-light navbar-expand-md
-                bg-faded
-                justify-content-center
-              ">
-            <div class="container">
-              <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
-                <h3 id="logo">
-                  <span id="logotext1" style="font-weight: normal;">Solar</span><span id="logotext2" >Rework</span>
-                  <span id="dot1">.</span>
-                </h3>
+          navbar navbar-light navbar-expand-md
+          bg-faded
+          justify-content-center
+        ">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex w-50 me-auto">
+          <h3 id="logo">
+            <span id="logotext1" style="font-weight: normal;">Solar</span><span id="logotext2" >Rework</span>
+            <span id="dot1">.</span>
+          </h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100"  id="collapsingNavbar3">
+          <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <h5 >Home</h5>
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-                <span class="navbar-toggler-icon"></span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">
+                <h5 >About Us</h5>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="services.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <h5 id="active">Services <i class="fas fa-angle-down"></i></h5>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="system-repair.html">System Repair</a></li>
+                <li><a class="dropdown-item" href="panel-washing.html">Panel Washing</a></li>
+                <li><a class="dropdown-item" href="panel-replacement.html">Panel Replacement</a></li>
+                <li><a class="dropdown-item" href="maintenance.html">Maintenance & Monitoring</a></li>
+                <li><a class="dropdown-item" href="plant-shifting.html">Solar Plant Shifting</a></li>
+                <li><a class="dropdown-item" href="plant-reinstallation.html">Solar Plant Reinstallation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">
+                <h5 >Contact</h5>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" >
+                <button id="book" data-bs-toggle="modal" data-bs-target="#myModal" type="button" class="btn btn-primary">
+                <h6 style="margin-top: 5px;">Book Appointment</h6>
               </button>
-              <div class="navbar-collapse collapse w-100"  id="collapsingNavbar3">
-                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">
-                      <h5>Home</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">
-                      <h5>About Us</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="services.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      <h5>Services <i class="fas fa-angle-down"></i></h5>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item" href="system-repair.html">System Repair</a></li>
-                        <li><a class="dropdown-item" href="panel-washing.html">Panel Washing</a></li>
-                        <li><a class="dropdown-item" href="panel-replacement.html">Panel Replacement</a></li>
-                        <li><a class="dropdown-item" href="maintenance.html">Maintenance & Monitoring</a></li>
-                        <li><a class="dropdown-item" href="plant-shifting.html">Solar Plant Shifting</a></li>
-                        <li><a class="dropdown-item" href="plant-reinstallation.html">Solar Plant Reinstallation</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <h5>Contact</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#" ><button id="book" type="button" class="btn btn-primary">
-                      <h6 style="margin-top: 5px;">Book Appointment</h6>
-                      </button></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
         </header>
       </div>
 
@@ -102,7 +104,7 @@
                     <button
                       id="book1-about"
                       type="button"
-                      class="btn btn-primary"
+                      class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" 
                     >
                       <h6 style="margin-top: 5px">Book Appointment</h6>
                     </button></a
@@ -282,78 +284,128 @@
 
 
 <br><br>
-
-  <section>
-    <div class="container-fluid" id="desc1">
-      <div id="connect">
-      <h3 style="text-align: center">Get Started</h3>
-      <h3 id="desc1-h3" >STOP WASTING-OPTIMIZE YOUR SYSTEM’S PERFORMACE TODAY !</h3>
-      <button id="know3" type="button" class="btn btn-primary">
-        <h6 style="margin-top: 5px;line-height: 10px;">Book Now</h6>
-      </button>
-      </div>
-    </div>
-  </section>
-  
-  <a href="#" id="scroll" style="display: none;"><span></span></a>
-  
-  <footer >
-    <div class="container-fluid">
-      <div class="row">
-      <div class="col-md-5">
-        <h4>
-        <span id="footertext1" style="font-weight: normal;">Solar</span><span id="footertext2" >Rework</span>
-        <span id="dot3">.</span>
-        </h4>
-        <p style="text-align: justify;">At SolarRework, we are dedicated to making clean, sustainable power available to commercial and utility clients. 
-          Since 2017, we’ve made it our mission to meet the changing energy needs of our clients throughout India.</p>
-      </div>
-      <div class="col-md-3">
-        <h4>
-          Other Pages
-        </h4>
-        <ul id="footerlist" style="list-style: none;">
-          <li>Repair</li>
-          <li>Services</li>
-          <li>Maintenance</li>
-          <li>Book Appointment </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <h4>
-          Connect With Us
-          <!-- <span id="dot1">.</span> -->
-          <div>
-            <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-twitter-square"></i>
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="hr">Book Appointment
+          <!-- <hr align="center" id="title-underline"> -->
+          </h3>
+    <div >
+      <form>
+          <div class="mb-3">
+              <!-- <h5><label for="exampleInputEmail1" class="form-label">Name</label></h5> -->
+              <input style="font-size: 20px;color: black;" placeholder="Enter your Name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+          <div class="mb-3">
+              <!-- <h5><label for="exampleInputEmail1" class="form-label">Contact No.</label></h5> -->
+              <input style="font-size: 20px;color: black;"  type="text" placeholder="Enter Contact No." class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
-        </h4>
-      </div>
+          <div class="mb-3">
+            <!-- <h5><label for="exampleInputEmail1" class="form-label">Email address</label></h5> -->
+            <input style="font-size: 20px;color: black;"  type="email" placeholder="Enter Email Address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <!-- <h5><label for="exampleInputEmail1" class="form-label">City</label></h5> -->
+            <select style="font-size: 20px;color:black"   name="service" id="" class="form-control">
+              <option class="form-control" >Select Service</option>
+              <option class="form-control">Solar Repair</option>
+              <option class="form-control">Panel Washing</option>
+              <option class="form-control">Panel Replacement</option>
+              <option class="form-control">Maintenance & Monitoring</option>
+              <option class="form-control">Solar Plant Shifting</option>
+              <option class="form-control">Solar Plant Reinstallation</option>
+              <option class="form-control" >Other</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <input style="font-size: 20px;color:black"  type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> 
+          </div>
+          <div class="mb-3">
+              <!-- <h5><label for="exampleInputEmail1" class="form-label">City</label></h5> -->
+              <input style="font-size: 20px;"  type="text" placeholder="Enter City" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+          <div class="mb-3">
+              <!-- <h5><label for="exampleInputEmail1" class="form-label">Message</label></h5> -->
+              <textarea style="font-size: 18px;color: black;"  name="message" placeholder="Type message..." class="form-control" id="message" cols="25" rows="5"></textarea>
+          </div>
+          <button id="contact-button" type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <p>© Copyright 2021 SolarRework</p></p>
+  </div>
+</div>
+
+<section>
+  <div class="container-fluid" id="desc1">
+    <div id="connect">
+    <h3 style="text-align: center">Get Started</h3>
+    <h3 id="desc1-h3" >STOP WASTING-OPTIMIZE YOUR SYSTEM’S PERFORMACE TODAY !</h3>
+    <button id="know3" type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-primary">
+      <h6 style="margin-top: 5px;line-height: 10px;">Book Now</h6>
+    </button>
     </div>
-  </footer>
+  </div>
+</section>
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+
+<footer >
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-5">
+      <h4>
+      <span id="footertext1" style="font-weight: normal;">Solar</span><span id="footertext2" >Rework</span>
+      <span id="dot3">.</span>
+      </h4>
+      <p style="text-align: justify;">At SolarRework, we are dedicated to making clean, sustainable power available to commercial and utility clients. 
+        Since 2017, we’ve made it our mission to meet the changing energy needs of our clients throughout India.</p>
+      <p>A unit of <a href="https://www.duetpower.in/"> <img style="height: 20px;margin-left: 5px;" src="/images/logo.png" alt=""></a></p>
+    </div>
+    <div class="col-md-3">
+      <h4>
+        Other Pages
+      </h4>
+      <ul id="footerlist" style="list-style: none;">
+        <a href="about.html"><li>About Us</li></a>
+        <a href="#desc2"><li>Services</li></a>
+        <a href="contact.html"><li>Contact Us</li></a>
+        <a ><li data-bs-toggle="modal" data-bs-target="#myModal" >Book Appointment</li></a>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h4>
+        Connect With Us
+        <!-- <span id="dot1">.</span> -->
+        <div>
+        <ul id="footerlist2" style="list-style: none;">
+          <li><i class="fas fa-map-marker-alt"></i> Office no.-874,Gali no-4, Sihani Road,Ghaziabad ,UP - 201003</li>
+          <li><i class="fas fa-map-marker-alt"></i> Office No.B1035 ,Ithem tower ,Noida sector 62,UP - 201309</li>
+          <li><i class="fas fa-phone-alt"></i> +91-9654659613</li>
+          <li><i class="fab fa-whatsapp"></i> +91-8383068030</li>
+        </ul>
+        </div>
+        <div>
+          <i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-twitter-square"></i>
+        </div>
+      </h4>
+    </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <p>© Copyright 2021 SolarRework</p></p>
+  </div>
+</footer>
 
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.slim.js"
-    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
-    crossorigin="anonymous"
-  ></script>
-  <script
-    type="text/javascript"
-    src="https://code.jquery.com/jquery-1.12.0.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
-  ></script>
-  <script src="./Js/script.js"></script>
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="./Js/script.js"></script>
 </body>
+
 </html>
