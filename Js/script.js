@@ -48,6 +48,20 @@ $(document).ready(function(){
     });
 });
 
+$( document ).ready(function() {
+  // Home - Intro slider
+  $('.slick-slider').slick({
+    dots: false,
+    appendDots: '.dots-wrapper',
+    arrows: false,
+    infinite: true,
+    speed: 1000,
+    autoplay: true,
+    fade: true,
+    cssEase: 'ease'
+  });
+})
+
 
 $(document).ready(function(){ 
     $(window).scroll(function(){ 
